@@ -1,10 +1,3 @@
-# watching-the-star
-
-테크포임팩트 프로젝트 폴더입니다.
-
-권도현 
-정지윤
-박소현
 # [Watching the Stars]
  ## 📌 Overview
  별따러가자 2팀 
