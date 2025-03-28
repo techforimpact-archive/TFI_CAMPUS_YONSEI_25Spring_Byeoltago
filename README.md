@@ -7,3 +7,5 @@
  2. Run the project: `npm start`
  ## 👥 Contributors
  박소현 권도현 김현중 장선아 정지윤 
+ ## What to do next 
+ 주제 정하기 
