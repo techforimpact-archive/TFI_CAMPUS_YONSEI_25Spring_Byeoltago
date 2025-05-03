@@ -1,11 +1,9 @@
-# [Watching the Stars]
+# [별보고 Byeolbogo]
  ## 📌 Overview
- 별따러가자 2팀 
+ 2025 Spring 테크포임팩트 프로젝트
  ## 🚀 Features- Feature 1- Feature 2
  ## 🛠 How to Set Up
- 1. Install dependencies: `npm install`
- 2. Run the project: `npm start`
  ## 👥 Contributors
+ [별따러가자 2팀]
  박소현 권도현 김현중 장선아 정지윤 
  ## What to do next 
- 주제 정하기 
