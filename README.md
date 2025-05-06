@@ -1,4 +1,4 @@
-# [별보고 Byeolbogo]
+# [별타고 Byeoltago]
  ## 📌 Overview
  2025 Spring 테크포임팩트 프로젝트
  ## 🚀 Features- Feature 1- Feature 2
