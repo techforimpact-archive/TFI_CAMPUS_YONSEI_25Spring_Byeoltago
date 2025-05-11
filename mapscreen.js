@@ -65,8 +65,9 @@ document.querySelector('#info-card .handle').addEventListener('click', function 
     }
 
     function reportNow() {
-      alert("즉시 신고 기능은 다음 버전에 추가됩니다!");
-    }
+  window.location.href="report.html";
+};
+  
 
     // 사이드바
     const menuToggle = document.getElementById("menu-toggle");
