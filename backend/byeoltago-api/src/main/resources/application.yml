@@ -1,0 +1,49 @@
+spring:
+  application:
+    name: byeoltago-api
+  config:
+    activate:
+      on-profile: default
+    import:
+      - optional:vault://byeoltago/api/datasource
+      - optional:vault://byeoltago/api/redis
+      - optional:vault://byeoltago/api/jwt
+  jackson:
+    property-naming-strategy: SNAKE_CASE
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: #VAULT
+    username: #VAULT
+    password: #VAULT
+  cloud:
+    vault:
+      uri: http://ec2-43-203-245-224.ap-northeast-2.compute.amazonaws.com:8200
+      authentication: token
+      token: hvs.CAESINjElpgUO46kfq2gzN5PAIOrJ5JaDZvGmg21kj6J9l-fGh4KHGh2cy5mN0RBM2VyUW1HN2dEQ1BJeHIwdnAwbk4
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.MySQLDialect
+    properties:
+      hibernate:
+        format_sql: true
+        show_sql: false
+        use_sql_comments: true
+  data:
+    redis:
+      host: #VAULT
+      port: #VAULT
+      password: #VAULT
+  jwt:
+    secret: #VAULT
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+    operations-sorter: method
+    show-common-extensions: true
+    show-extensions: true
+logging:
+  level:
+    com.kakaoimpact.byeoltago_api: debug
+file:
+  upload-dir: uploads/reports
