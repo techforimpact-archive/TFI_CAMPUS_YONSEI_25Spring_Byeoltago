@@ -8,5 +8,13 @@
  ## 👥 Contributors
  [별따러가자 2팀]
  박소현 권도현 김현중 장선아 정지윤 
+ ## Roles 
+ | 이름   | 역할     |
+| ------ | -------- |
+| 장선아 | PM       | 
+| 박현준 | UI/UX    | 
+| 이종준 | Frontend | 
+| 조성현 | Backend  |
+| 이재만 | Backend  | 
  ## What to do next 
 
