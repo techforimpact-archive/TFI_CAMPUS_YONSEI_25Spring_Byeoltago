@@ -2,8 +2,7 @@
  ## 📌 Overview
  2025 Spring 테크포임팩트 프로젝트
  <p align="center">
-<img width="586" alt="별타고 로고" src="<img src="frontend/imgs/logo.png"/>
-" />
+<img width="586" alt="별타고 로고" src="./frontend/imgs/logo.png" />
 **안전한 자전거 주행을 위한 서비스**  
 
 ---
