@@ -36,7 +36,7 @@
 | Category   | Stack / Tool |
 |------------|--------------|
 | **Frontend** | HTML+CSS, Javascript  |
-| **Backend** | Java, Python |
-| **Deployment** |AWS, Docker|
+| **Backend** | Spring Boot |
+| **Deployment** | Github, AWS, Docker|
 
 
